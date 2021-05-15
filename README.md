@@ -9,11 +9,11 @@ The purpose of this project was for me to demonstrate my understanding of the di
 
 ## Features
 Below I will discuss the functionality I added with the JavaScript to each page in this project:
-1. Overall Stats
-1. Stats by Book
-1. Stats by Author
+1. [Overall Stats](#overall-stats)
+1. [Stats by Book](#stats-by-book)
+1. [Stats by Author](#stats-by-author)
 
-### 1. Overall Stats
+### Overall Stats
 ![Overall Stats Screenshot](/public/images/overallstats.jpg)
 In this page, I mainly used a filter array methods to find then count the array of all books that match a certain criteria, such as being borrowed or a certain genre.
 
