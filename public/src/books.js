@@ -21,10 +21,9 @@ function partitionBooksByBorrowedStatus(books) {
 function getBorrowersForBook(book, accounts) {
   const getBookBorrows = book => book.borrows;
   const bookBorrows = getBookBorrows(book);
-  //bookBorrows.length === ; 
+
   const matchingAccounts = [];
   for (let borrowNum = 0; borrowNum < bookBorrows.length; borrowNum++){
-    //bookBorrows.push(book.borrows[borrowNum]);
     const borrowId = bookBorrows[borrowNum].id;
     const rightAccount = accounts.find((account) => account.id === borrowId);
     matchingAccounts.push(rightAccount);
